@@ -203,7 +203,7 @@ alpha = 0.0001  # learning rate
 batch = 512
 ep = 50  # epoch
 
-hub_model = "https://tfhub.dev/google/nnlm-en-dim128-with-normalization/2"
+hub_model = "https://tfhub.dev/google/nnlm-en-dim50-with-normalization/2"
 
 """The Deep Neural Network:"""
 
