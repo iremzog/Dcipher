@@ -1,4 +1,5 @@
 **REPORT**
+
 I have split given dataset into train and test set with separation 80%-20% respectively, using random seed=1234 when shuffling the dataset. I have used both titles and abstracts as separate inputs to the all deep neural network I have tried. I have changed categorical labels to binary integers. '0' for Chemistry and '1' for Material Science.
 
 For this project, I have tried three different approaches:
@@ -20,6 +21,7 @@ Note: Although, I have used 50-dimensional embeddings, model weight files are st
 **Test set accuracy:** 0.695
 
 **Area Under the ROC Curve:** 0.767
+(ROC and Precision Recall Curves are added to GitHub repository.)
 
                   precision    recall  f1-score   support
 
